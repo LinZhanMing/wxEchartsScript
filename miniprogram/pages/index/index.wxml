@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+ 
+  <ec-canvas
+    wx:if="{{ show }}"
+    ec="{{ ec }}"
+    style="width: 375rpx;height: 400rpx;"
+  />
+
+  <we-script
+    src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/echarts/5.1.0/echarts.min.js"
+    bind:onLoad="onLoad"
+  ></we-script>
+
+</view>

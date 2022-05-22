@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "we-script": "../../miniprogram_npm/we-script/index"
+  }
+}

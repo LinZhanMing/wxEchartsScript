@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../components/ec-canvas/ec-canvas",
+    "we-script": "../../miniprogram_npm/we-script/index"
+  }
+}
